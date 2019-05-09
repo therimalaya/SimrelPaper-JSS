@@ -1,0 +1,56 @@
+---
+author:
+  - name: 'Raju Rimal'
+    short-affiliation: NMBU
+    affiliation: 'Norwegian University of Life Sciences (NMBU)'
+    address: 'Ås, 1433, \textsc{norway}'
+    email: '\email{raju.rimal@nmbu.no}'
+    url: 'http://mathatistics.com'
+  - name: 'Trygve Almøy'
+    short-affiliation: NMBU
+    affiliation: 'Norwegian University of Life Sciences (NMBU)'
+    address: 'Ås, 1433, \textsc{norway}'
+    email: '\email{trygve.almoy@nmbu.no}'
+  - name: 'Solve Sæbø'
+    short-affiliation: NMBU
+    affiliation: 'Norwegian University of Life Sciences (NMBU)'
+    address: 'Ås, 1433, \textsc{norway}'
+    email: '\email{solve.sabo@nmbu.no}'
+    url: 'http://blogg.nmbu.no/solvesabo/'
+title:
+  formatted: "Simulating Linear Model Data with `simrel`"
+  plain:     "Simulating Linear Model Data with Simrel"
+  short:     "\\pkg{simrel}: Simulation of Linear Model Data"
+abstract: >
+  Weather to compare new methods, algorithm and model or to access their properties, using simulated data is common in most research. This paper introduces an R-package `simrel` which provide a simple interface and few parameters to simulate multi-response linear model data with with wide range of properties. A shiny web application gives the package a friendly and easy-to-use interface for users to download data and explore various properties of the data. In addition, two examples are also presented as use cases of the package.
+keywords:
+  formatted: ["\\texttt{simrel}", simulation, linear model, '\proglang{R}']
+  plain:     [simrel, simulation, linear model, R]
+preamble: >
+  \usepackage{amsmath}
+# output: rticles::jss_article
+output:
+  bookdown::pdf_document2:
+    template: template.tex
+---
+
+# Introduction
+
+This template demonstrates some of the basic latex you'll need to know to create a JSS article.
+
+## Code formatting
+
+Don't use markdown, instead use the more precise latex commands:
+
+* \proglang{Java}
+* \pkg{plyr}
+* \code{print("abc")}
+
+# R code
+
+Can be inserted in regular R markdown blocks.
+
+```{r}
+x <- 1:10
+x
+```
